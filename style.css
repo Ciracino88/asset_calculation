@@ -1,0 +1,29 @@
+.cover {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.inner_cover {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.item {
+    margin: 0 5px 0 5px;
+}
+
+.item_cover {
+    margin: 0 15px 0 15px;
+}
+
+#logo_page {
+    position: fixed;
+    width: 500px;
+    height: 250px;
+    left: 100px;
+    border: 1px solid black;
+    background-color: #fff;
+    display: none;
+}

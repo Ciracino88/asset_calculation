@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자산 계산기</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="logo_page">
+        <p>현금은 매일 3%의 이자로, 30일을 벌어들인다.</p>
+        <p>코인은 매일 3%의 이자로, 30일을 벌어들인다.</p>
+        <p>월급은 200을 벌며, 이중 100을 cma에 저축한다.</p>
+        <p>이자에 대한 세율은 50%</p>
+    </div>
+    <p id="logo">자산 계산기</p>
+    <div class="cover">
+        <p id="sum_asset">총 자산 : 2500</p>
+        <p id="month">n개월 후 : 0</p>
+        <div class="inner_cover">
+            <div class="item_cover">
+                <p id="cma_cash" class="item">현금(CMA) : 1250</p>             
+            </div>
+            <div class="item_cover">
+                <p id="stock_and_coin" class="item">주식 및 코인 : 1250</p>
+            </div>
+        </div>
+        <div class="inner_cover">
+            <div class="item_cover">
+                <p id="coin" class="item">코인 : 500</p>             
+            </div>
+            <div class="item_cover">
+                <p id="stock" class="item">주식 : 750</p>
+            </div>
+        </div>
+        <div class="inner_cover">
+            <div class="item_cover">
+                <p id="fore_stock" class="item">해외 주식 : 500</p>              
+            </div>
+            <div class="item_cover">
+                <p id="dome_stock" class="item">국내 주식 : 200</p>
+            </div>
+        </div>
+    </div>
+    <button onclick="cal()">확인</button>
+    <script src="index.js"></script>
+</body>
+</html>
